@@ -42,6 +42,7 @@ export default {
     axios.get('https://jsonplaceholder.typicode.com/posts?_page=1&_limite=9')
     .then(res => 
     {
+	///سلام این یه تغییره که من دادم  :) 
       const posts = res.data// متن و عنوان مطالب وبلاگ
       posts.forEach(function (item){ // مطالب رو یکی یکی پیمایش میکنیم
           console.log(item.title)//چاپ عنوان های مطالب
