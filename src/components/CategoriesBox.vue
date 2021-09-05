@@ -1,6 +1,6 @@
 <template>
     
-
+ 
      <div class="card mt-4">
         <div class="card-header">Categories</div>
         <div class="card-body">
@@ -22,6 +22,6 @@
          </div>
        </div> 
      </div>
-  
+ 
 
 </template>

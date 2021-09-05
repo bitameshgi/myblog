@@ -7,13 +7,13 @@
         <a href="#" class="ab navbar-brand d-flex align-items-center">start Bootstrap</a>
         <ul class="nav justify-content-end">
   <li class="nav-item">
-    <a class="nav-link active" href="#">Home</a>
+   <router-link  class="nav-link" to="/">Home</router-link>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">About</a>
+   <router-link class="nav-link" to="/about" >About</router-link>
   </li>
   <li class="nav-item">
-    <a class="nav-link " href="#">Contact</a>
+   <router-link class="nav-link" to="/contact" >Contact</router-link>
   </li>
 </ul>
       </div>
